@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
+
+
+
+        while(true){
+          
         System.out.println("1=Parita cisiel 2= Cislo Slovne 3= Tyždne" );
         Scanner s0 = new Scanner(System.in);
         int n0 = s0.nextInt();
@@ -303,6 +308,9 @@ public class Main {
                         }
                 }
          }
+        }
 
     }
+
+
 }
