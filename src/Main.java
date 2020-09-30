@@ -28,10 +28,10 @@ public class Main {
 
 
 
-                System.exit(0);
+
                 break;
             case 2:
-                System.out.println("1=IF ELSE 2= SWITCH3= NEKONECNE CISLA" );
+                System.out.println("1=IF ELSE 2= SWITCH 3= NEKONECNE CISLA" );
                 Scanner s2 = new Scanner(System.in);
                 int n2 = s2.nextInt();
                 switch (n2){
@@ -49,7 +49,7 @@ public class Main {
                              else if(n3 == 7){System.out.println("Sedem");}
                              else if(n3 == 8){System.out.println("Osem");}
                              else if(n3 == 9){System.out.println("Devat");}
-                             System.exit(0);
+
                              break;
                     case 2:
                         System.out.println("Vložte cislo na precitanie 0-9" );
@@ -58,46 +58,46 @@ public class Main {
                         switch (n4){
                             case 1:
                                 System.out.println("Jedna");
-                                System.exit(0);
+
                                 break;
                             case 2:
                                 System.out.println("Dva");
-                                System.exit(0);
+
                                 break;
                             case 3:
                                 System.out.println("Tri");
-                                System.exit(0);
+
                                 break;
                             case 4:
                                 System.out.println("Styri");
-                                System.exit(0);
+
                                 break;
                             case 5:
                                 System.out.println("Pät");
-                                System.exit(0);
+
                                 break;
                             case 6:
                                 System.out.println("Šest");
-                                System.exit(0);
+
                                 break;
                             case 7:
                                 System.out.println("Sedem");
-                                System.exit(0);
+
                                 break;
                             case 8:
                                 System.out.println("Osem");
-                                System.exit(0);
+
                                 break;
                             case 9:
                                 System.out.println("Devat");
-                                System.exit(0);
+
                                 break;
                             case 0:
                                 System.out.println("Nula");
-                                System.exit(0);
+
                                 break;
                         }
-                                System.exit(0);
+
                                 break;
                     case 3:
                         System.out.println("Vložte cislo na precitanie - Nekonecno" );
@@ -113,50 +113,50 @@ public class Main {
                             switch (stack.pop()){
                                 case 1:
                                     System.out.println("Jedna");
-                                    System.exit(0);
+
                                     break;
                                 case 2:
                                     System.out.println("Dva");
-                                    System.exit(0);
+
                                     break;
                                 case 3:
                                     System.out.println("Tri");
-                                    System.exit(0);
+
                                     break;
                                 case 4:
                                     System.out.println("Styri");
-                                    System.exit(0);
+
                                     break;
                                 case 5:
                                     System.out.println("Pät");
-                                    System.exit(0);
+
                                     break;
                                 case 6:
                                     System.out.println("Šest");
-                                    System.exit(0);
+
                                     break;
                                 case 7:
                                     System.out.println("Sedem");
-                                    System.exit(0);
+
                                     break;
                                 case 8:
                                     System.out.println("Osem");
-                                    System.exit(0);
+
                                     break;
                                 case 9:
                                     System.out.println("Devat");
-                                    System.exit(0);
+
                                     break;
                                 case 0:
                                     System.out.println("Nula");
-                                    System.exit(0);
+
                                     break;
 
                             } }
-                        System.exit(0);
+
                         break;
               }
-              System.exit(0);
+
               break;
 
             case 3:
@@ -190,7 +190,7 @@ public class Main {
                                 } else if (Den == 7) {
                                     System.out.println("Nedela");
                                 }
-                                System.exit(0);
+
                                 break;
                             case 2:
                                 System.out.println("Vložte cislo dna (0=Pondelok)");
@@ -211,12 +211,12 @@ public class Main {
                                 } else if (Den == 6) {
                                     System.out.println("Nedela");
                                 }
-                                System.exit(0);
+
                                 break;
                             default:
                                 throw new IllegalStateException("Unexpected value: " + n0);
                         }
-                        System.exit(0);
+
                         break;
 
                     case 2:
@@ -232,36 +232,37 @@ public class Main {
                                 switch (Den1) {
                                     case 1:
                                         System.out.println("Pondelok");
-                                        System.exit(0);
+
                                         break;
                                     case 2:
                                         System.out.println("Utorok");
-                                        System.exit(0);
+
                                         break;
                                     case 3:
                                         System.out.println("Streda");
-                                        System.exit(0);
+
                                         break;
                                     case 4:
                                         System.out.println("Stvrtok");
-                                        System.exit(0);
+
                                         break;
                                     case 5:
                                         System.out.println("Piatok");
-                                        System.exit(0);
+
                                         break;
                                     case 6:
                                         System.out.println("Sobota");
-                                        System.exit(0);
+
                                         break;
                                     case 7:
                                         System.out.println("Nedela");
-                                        System.exit(0);
+
                                         break;
 
 
 
                                 }
+                                break;
 
                             case 2:
 
@@ -271,31 +272,31 @@ public class Main {
                                 switch (n10) {
                                     case 1:
                                         System.out.println("Pondelok");
-                                        System.exit(0);
+
                                         break;
                                     case 2:
                                         System.out.println("Utorok");
-                                        System.exit(0);
+
                                         break;
                                     case 3:
                                         System.out.println("Streda");
-                                        System.exit(0);
+
                                         break;
                                     case 4:
                                         System.out.println("Stvrtok");
-                                        System.exit(0);
+
                                         break;
                                     case 5:
                                         System.out.println("Piatok");
-                                        System.exit(0);
+
                                         break;
                                     case 6:
                                         System.out.println("Sobota");
-                                        System.exit(0);
+
                                         break;
                                     case 7:
                                         System.out.println("Nedela");
-                                        return;
+                                        break;
 
 
                                 }
