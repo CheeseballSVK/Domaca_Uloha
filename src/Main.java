@@ -8,7 +8,7 @@ public class Main {
 
 
         while(true){
-          
+
         System.out.println("1=Parita cisiel 2= Cislo Slovne 3= Tyždne" );
         Scanner s0 = new Scanner(System.in);
         int n0 = s0.nextInt();
@@ -19,8 +19,7 @@ public class Main {
                 int n1 = s1.nextInt();
                 boolean done = n1 % 2 ==0;
                 if(done){System.out.println("parne");
-
-
+                
 
 
                 }
@@ -36,7 +35,7 @@ public class Main {
 
                 break;
             case 2:
-                System.out.println("1=IF ELSE 2= SWITCH 3= NEKONECNE CISLA" );
+                System.out.println("1=IF ELSE 2= SWITCH 3= NEKONECNE CISLA 4=do miliona s sklonovanim" );
                 Scanner s2 = new Scanner(System.in);
                 int n2 = s2.nextInt();
                 switch (n2){
@@ -160,7 +159,388 @@ public class Main {
                             } }
 
                         break;
+
               }
+            case 4:
+                Scanner s5 = new Scanner(System.in);
+                int n5 = s5.nextInt();
+                LinkedList<Integer> stack = new LinkedList<Integer>();
+
+                while (n5 > 0) {
+                    stack.push( n5 % 10 );
+                    n5 = n5 / 10;
+
+
+
+                }
+                while (!stack.isEmpty()) {
+                    int v = stack.size();
+                    if(v == 4){
+                        switch ((stack.pop())) {
+                            case 1:
+                                System.out.print("Jeden");
+
+                                break;
+                            case 2:
+                                System.out.print("Dva");
+
+                                break;
+                            case 3:
+                                System.out.print("Tri");
+
+                                break;
+                            case 4:
+                                System.out.print("Styri");
+
+                                break;
+                            case 5:
+                                System.out.print("Pät");
+
+                                break;
+                            case 6:
+                                System.out.print("Šest");
+
+                                break;
+                            case 7:
+                                System.out.print("Sedem");
+
+                                break;
+                            case 8:
+                                System.out.print("Osem");
+
+                                break;
+                            case 9:
+                                System.out.print("Devat");
+
+                                break;
+                            case 0:
+                                break;
+
+                        }
+                        System.out.print(" Tisic ");
+                    }
+
+
+                    else{
+                        switch(v) {
+                            case 7:
+                                switch ((stack.pop())) {
+                                    case 1:
+                                        System.out.print("Milion ");
+
+                                        break;
+                                    case 2:
+                                        System.out.print("Dve Miliony ");
+
+                                        break;
+                                    case 3:
+                                        System.out.print("Tri Miliony ");
+
+                                        break;
+                                    case 4:
+                                        System.out.print("Styri Miliony ");
+
+                                        break;
+                                    case 5:
+                                        System.out.print("Pät Milionov ");
+
+                                        break;
+                                    case 6:
+                                        System.out.print("Šest Milionov ");
+
+                                        break;
+                                    case 7:
+                                        System.out.print("Sedem  Milionov ");
+
+                                        break;
+                                    case 8:
+                                        System.out.print("Osem  Milionov ");
+
+                                        break;
+                                    case 9:
+                                        System.out.print("Devat  Milionov");
+
+                                        break;
+                                    case 0:
+                                        System.out.print("Milión");
+                                        break;
+
+                                }
+                                break;
+                            case 6:
+                                switch ((stack.pop())) {
+                                    case 1:
+                                        System.out.print("Sto");
+
+                                        break;
+                                    case 2:
+                                        System.out.print("Dvesto");
+
+                                        break;
+                                    case 3:
+                                        System.out.print("Tristo");
+
+                                        break;
+                                    case 4:
+                                        System.out.print("Styristo");
+
+                                        break;
+                                    case 5:
+                                        System.out.print("Pätsto");
+
+                                        break;
+                                    case 6:
+                                        System.out.print("Šeststo");
+
+                                        break;
+                                    case 7:
+                                        System.out.print("Sedemsto");
+
+                                        break;
+                                    case 8:
+                                        System.out.print("Osemsto");
+
+                                        break;
+                                    case 9:
+                                        System.out.print("Devatsto");
+
+                                        break;
+                                    case 0:
+                                        break;
+
+                                }
+
+                                break;
+                            case 5:
+                                switch ((stack.pop())) {
+                                    case 1:
+                                        switch ((stack.pop())){
+                                            case 1:
+                                                System.out.print("Jedenasť");
+                                                break;
+                                            case 2:
+                                                System.out.print("Dvanást");
+                                                break;
+                                            case 3:
+                                                System.out.print("Trinasť");
+                                                break;
+                                            case 4:
+                                                System.out.print("Strnást");
+                                                break;
+                                            case 5:
+                                                System.out.print("Patnast");
+                                                break;
+                                            case 6:
+                                                System.out.print("Sestnast");
+                                                break;
+                                            case 7:
+                                                System.out.print("Sedemnast");
+                                                break;
+                                            case 8:
+                                                System.out.print("Osemnast");
+                                                break;
+                                            case 9:
+                                                System.out.print("Devatnast");
+                                                break;
+                                        }
+
+                                        break;
+                                    case 2:
+                                        System.out.print("Dvadsať");
+
+                                        break;
+                                    case 3:
+                                        System.out.print("Tridsat");
+
+                                        break;
+                                    case 4:
+                                        System.out.print("štyridsať");
+
+                                        break;
+                                    case 5:
+                                        System.out.print("päťdesiat");
+
+                                        break;
+                                    case 6:
+                                        System.out.print("Sestdesiat");
+
+                                        break;
+                                    case 7:
+                                        System.out.print("Sedemdesiat");
+
+                                        break;
+                                    case 8:
+                                        System.out.print("Osemdesiat");
+
+                                        break;
+                                    case 9:
+                                        System.out.print("Devatdesiat");
+
+                                        break;
+
+                                }
+                                break;
+
+                            case 3:
+                                switch ((stack.pop())) {
+                                    case 1:
+                                        System.out.print("Sto");
+
+                                        break;
+                                    case 2:
+                                        System.out.print("Dvesto");
+
+                                        break;
+                                    case 3:
+                                        System.out.print("Tristo");
+
+                                        break;
+                                    case 4:
+                                        System.out.print("Styristo");
+
+                                        break;
+                                    case 5:
+                                        System.out.print("Pätsto");
+
+                                        break;
+                                    case 6:
+                                        System.out.print("Šeststo");
+
+                                        break;
+                                    case 7:
+                                        System.out.print("Sedemsto");
+
+                                        break;
+                                    case 8:
+                                        System.out.print("Osemsto");
+
+                                        break;
+                                    case 9:
+                                        System.out.print("Devatsto");
+
+                                        break;
+                                    case 0:
+                                        break;
+
+                                }
+                                break;
+                            case 2:
+                                switch ((stack.pop())) {
+                                    case 1:
+                                        switch ((stack.pop())){
+                                            case 1:
+                                                System.out.print("Jedenasť");
+                                                break;
+                                            case 2:
+                                                System.out.print("Dvanást");
+                                                break;
+                                            case 3:
+                                                System.out.print("Trinasť");
+                                                break;
+                                            case 4:
+                                                System.out.print("Strnást");
+                                                break;
+                                            case 5:
+                                                System.out.print("Patnast");
+                                                break;
+                                            case 6:
+                                                System.out.print("Sestnast");
+                                                break;
+                                            case 7:
+                                                System.out.print("Sedemnast");
+                                                break;
+                                            case 8:
+                                                System.out.print("Osemnast");
+                                                break;
+                                            case 9:
+                                                System.out.print("Devatnast");
+                                                break;
+                                        }
+
+                                        break;
+                                    case 2:
+                                        System.out.print("Dvadsať");
+
+                                        break;
+                                    case 3:
+                                        System.out.print("Tridsat");
+
+                                        break;
+                                    case 4:
+                                        System.out.print("štyridsať");
+
+                                        break;
+                                    case 5:
+                                        System.out.print("päťdesiat");
+
+                                        break;
+                                    case 6:
+                                        System.out.print("Sestdesiat");
+
+                                        break;
+                                    case 7:
+                                        System.out.print("Sedemdesiat");
+
+                                        break;
+                                    case 8:
+                                        System.out.print("Osemdesiat");
+
+                                        break;
+                                    case 9:
+                                        System.out.print("Devatdesiat");
+
+                                        break;
+
+                                }
+                                break;
+                            case 1:
+                                switch ((stack.pop())) {
+                                    case 1:
+                                        System.out.print("Jeden");
+
+                                        break;
+                                    case 2:
+                                        System.out.print("Dva");
+
+                                        break;
+                                    case 3:
+                                        System.out.print("Tri");
+
+                                        break;
+                                    case 4:
+                                        System.out.print("Styri");
+
+                                        break;
+                                    case 5:
+                                        System.out.print("Pät");
+
+                                        break;
+                                    case 6:
+                                        System.out.print("Šest");
+
+                                        break;
+                                    case 7:
+                                        System.out.print("Sedem");
+
+                                        break;
+                                    case 8:
+                                        System.out.print("Osem");
+
+                                        break;
+                                    case 9:
+                                        System.out.print("Devat");
+
+                                        break;
+                                    case 0:
+                                        break;
+                                }
+                                break;
+                            default:
+                                throw new IllegalStateException("Uveďte iba 6 miestne čislo, nie: " + v +"miestne");
+                        }
+                    }
+                }
+                System.out.println(" ");
 
               break;
 
