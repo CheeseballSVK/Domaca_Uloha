@@ -162,6 +162,7 @@ public class Main {
 
               }
             case 4:
+                System.out.println("Vložte cislo na precitanie - 9999999 limit" );
                 Scanner s5 = new Scanner(System.in);
                 int n5 = s5.nextInt();
                 LinkedList<Integer> stack = new LinkedList<Integer>();
@@ -317,30 +318,39 @@ public class Main {
                                         switch ((stack.pop())){
                                             case 1:
                                                 System.out.print("Jedenasť");
+                                                System.out.print(" Tisic ");
                                                 break;
                                             case 2:
                                                 System.out.print("Dvanást");
+                                                System.out.print(" Tisic ");
                                                 break;
                                             case 3:
                                                 System.out.print("Trinasť");
+                                                System.out.print(" Tisic ");
                                                 break;
                                             case 4:
                                                 System.out.print("Strnást");
+                                                System.out.print(" Tisic ");
                                                 break;
                                             case 5:
                                                 System.out.print("Patnast");
+                                                System.out.print(" Tisic ");
                                                 break;
                                             case 6:
                                                 System.out.print("Sestnast");
+                                                System.out.print(" Tisic ");
                                                 break;
                                             case 7:
                                                 System.out.print("Sedemnast");
+                                                System.out.print(" Tisic ");
                                                 break;
                                             case 8:
                                                 System.out.print("Osemnast");
+                                                System.out.print(" Tisic ");
                                                 break;
                                             case 9:
                                                 System.out.print("Devatnast");
+                                                System.out.print(" Tisic ");
                                                 break;
                                         }
 
